@@ -1,0 +1,41 @@
+:root {
+  font-family: system-ui, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #f6f7f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+code {
+  font-size: 0.9em;
+}
+
+.balance-score {
+  font-weight: 600;
+}
+
+.balance-score--low {
+  color: #b42318;
+}
+
+.balance-score--mid {
+  color: #b54708;
+}
+
+.balance-score--high {
+  color: #027a48;
+}
+
